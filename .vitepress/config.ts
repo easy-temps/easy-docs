@@ -147,6 +147,7 @@ const vue3ElementAdminSidebarConfig: DefaultTheme.SidebarItem[] = [
 
 
 export default defineConfig({
+  base: 'easy-docs',
   title: 'EasyTemplate',
 
   lastUpdated: true,
