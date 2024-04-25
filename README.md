@@ -1,2 +1,3 @@
-# easy-docs
-📗 Easy Template 官方文档
+# Easy Docs
+
+Easy Template 官方文档
