@@ -155,8 +155,8 @@ export default defineConfig({
   metaChunk: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
-    ['link', { rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', sizes: '16x16' }],
+    ['link', { rel: 'icon', href: '/easy-docs/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'alternate icon', href: '/easy-docs/favicon.ico', type: 'image/png', sizes: '16x16' }],
     ['meta', { name: 'theme-color', content: '#55a578' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh' }],
@@ -173,7 +173,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/easy-temps' }
+      { icon: 'github', link: 'https://github.com/easy-temps' },
+      { icon: 'x', link: 'https://twitter.com/charlie9627' }
     ],
 
     nav: Nav,
@@ -190,6 +191,15 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/easy-temps/easy-docs/edit/main/:path',
       text: '在 GitHub 上编辑此页面',
+    },
+
+    lastUpdated: {
+      text: '最后更新于'
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     },
     
     footer: {
