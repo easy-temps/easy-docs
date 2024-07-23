@@ -1,0 +1,9 @@
+{
+  // Markdownlint rules
+  "markdownlint.config": {
+    "default": true,
+    "MD025": false,
+    "MD001": false,
+    "MD033": false
+  }
+}

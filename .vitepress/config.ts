@@ -5,23 +5,23 @@ const Guides: DefaultTheme.NavItemWithLink[] = [
 ]
 
 const vue3VantMobile: DefaultTheme.NavItemWithLink[] = [
-  { text: '概述', link: '/vue3-vant-mobile/' },
+  { text: '介绍', link: '/vue3-vant-mobile/' },
 ]
 
 const vue3VarletMobile: DefaultTheme.NavItemWithLink[] = [
-  { text: '概述', link: '/vue3-varlet-mobile/' },
+  { text: '介绍', link: '/vue3-varlet-mobile/' },
 ]
 
 const nuxt3VantMobile: DefaultTheme.NavItemWithLink[] = [
-  { text: '概述', link: '/nuxt3-vant-mobile/' },
+  { text: '介绍', link: '/nuxt3-vant-mobile/' },
 ]
 
 const vue3ElementAdmin: DefaultTheme.NavItemWithLink[] = [
-  { text: '概述', link: '/vue3-element-admin/' },
+  { text: '介绍', link: '/vue3-element-admin/' },
 ]
 
 const vue3AntdvMobile: DefaultTheme.NavItemWithLink[] = [
-  { text: '概述', link: '/vue3-antdv-admin/' },
+  { text: '介绍', link: '/vue3-antdv-admin/' },
 ]
 
 const Nav: DefaultTheme.NavItem[] = [
