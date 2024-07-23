@@ -1,7 +1,7 @@
 {
   "name": "easy.template",
   "type": "module",
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.6.0",
   "description": "Out of the box vue3 template",
   "scripts": {
     "docs:dev": "vitepress dev",
@@ -9,6 +9,6 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.1.3"
+    "vitepress": "^1.3.1"
   }
 }
