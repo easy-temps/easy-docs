@@ -6,6 +6,7 @@ const Guides: DefaultTheme.NavItemWithLink[] = [
 
 const vue3VantMobile: DefaultTheme.NavItemWithLink[] = [
   { text: '介绍', link: '/vue3-vant-mobile/' },
+  { text: '目录结构', link: '/vue3-vant-mobile/directory'},
   { text: '图标', link: '/vue3-vant-mobile/icons' },
 ]
 
@@ -187,6 +188,10 @@ export default defineConfig({
       '/nuxt3-vant-mobile/': nuxt3VantMobileSidebarConfig,
       '/vue3-antdv-admin/': vue3AntdvMobileSidebarConfig,
       '/vue3-element-admin/': vue3ElementAdminSidebarConfig,
+    },
+
+    outline: {
+      label: '页面导航',
     },
 
     editLink: {
