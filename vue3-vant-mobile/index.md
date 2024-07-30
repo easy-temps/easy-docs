@@ -3,19 +3,19 @@ title: 介绍
 description: 一个基于 Vue 3 生态系统的移动 web 应用模板，帮助你快速完成业务开发
 ---
 
-# 介绍
+# 介绍 {#intro}
 
 [vue3-vant-mobile](https://github.com/easy-temps/vue3-vant-mobile) 是一款开源免费且开箱即用的移动模版，完全采用 `ECMAScript` 模块（`ESM`）规范来编写和组织代码，使用了最新的 `Vue3`、`Vite`、`Vant`、`TypeScript`、`Pinia`、`Unocss` 等主流技术开发。我们还提供了业务当中常用的组件，例如：`Dark Mode`、`i18n`、`Mock`、`ECharts`、`Pinia` 持久化、`KeepAlive` 等示例。总之，开发者借助这个模板，可以继续向上构建自己的业务场景，快速完成开发工作。
 
-## 在线预览
+## 在线预览 {#preview}
 
 :point_right: [Live Demo](https://vue3-vant-mobile.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e6828bd2-2904-4c3e-a67c-b97d32aa1275/deploy-status)](https://app.netlify.com/sites/vue3-vant-mobile/deploys)
 
-## 预配置
+## 预配置 {#preset}
 
-### UI 框架
+### UI 框架 {#ui}
 
 - [UnoCSS](https://github.com/antfu/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
   - [@unocss/preset-rem-to-px](https://github.com/unocss/unocss/tree/main/packages/preset-rem-to-px) - 将所有实用程序的 rem 转换为 px
@@ -24,7 +24,7 @@ description: 一个基于 Vue 3 生态系统的移动 web 应用模板，帮助�
   - [vant-touch-emulator](https://github.com/youzan/vant/tree/main/packages/vant-touch-emulator) - 在桌面端上模拟移动端 touch 事件
   - [vant-use](https://github.com/youzan/vant/tree/main/packages/vant-use) - Vant 内置的组合式 API
 
-### 插件
+### 插件 {#plugins}
 
 - [Vue Router](https://github.com/vuejs/router)
   - [unplugin-vue-router](https://github.com/posva/unplugin-vue-router) - 以文件系统为基础的路由
@@ -43,7 +43,7 @@ description: 一个基于 Vue 3 生态系统的移动 web 应用模板，帮助�
 - [vite-plugin-pwa](https://github.com/antfu/vite-plugin-pwa) - PWA
 - [vite-plugin-sitemap](https://github.com/jbaubree/vite-plugin-sitemap) - sitemap 和 robots 生成器
 
-## 问题反馈
+## 问题反馈 {#feedback}
 
 我们推荐使用 [议题](https://github.com/easy-temps/vue3-vant-mobile/issues) 来反馈问题, 或者您也可以通过微信群联系我们。
 

@@ -2,7 +2,7 @@
 title: 目录结构
 ---
 
-# :open_book: 目录结构
+# :open_book: 目录结构 {#directory}
 
 模板文件结构说明。
 
