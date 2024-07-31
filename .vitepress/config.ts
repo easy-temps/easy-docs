@@ -213,5 +213,10 @@ export default defineConfig({
       message: '基于 MIT 许可发布',
       copyright: '版权所有 © 2022-2024 EasyTemplate',
     },
-  }
+  },
+
+  ignoreDeadLinks:[
+    // ignore all localhost links
+    /^https?:\/\/localhost/,
+  ],
 })
