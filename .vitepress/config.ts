@@ -6,6 +6,7 @@ const Guides: DefaultTheme.NavItemWithLink[] = [
 
 const vue3VantMobile: DefaultTheme.NavItemWithLink[] = [
   { text: '介绍', link: '/vue3-vant-mobile/' },
+  { text: '快速开始', link: '/vue3-vant-mobile/getting-started'},
   { text: '目录结构', link: '/vue3-vant-mobile/directory'},
   { text: '图标', link: '/vue3-vant-mobile/icons' },
 ]
