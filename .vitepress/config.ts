@@ -9,6 +9,7 @@ const vue3VantMobile: DefaultTheme.NavItemWithLink[] = [
   { text: '快速开始', link: '/vue3-vant-mobile/getting-started'},
   { text: '目录结构', link: '/vue3-vant-mobile/directory'},
   { text: '图标', link: '/vue3-vant-mobile/icons' },
+  { text: '浏览器适配', link: '/vue3-vant-mobile/browser-adaptation' },
 ]
 
 const vue3VarletMobile: DefaultTheme.NavItemWithLink[] = [
