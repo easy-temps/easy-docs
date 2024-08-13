@@ -10,6 +10,7 @@ const vue3VantMobile: DefaultTheme.NavItemWithLink[] = [
   { text: '目录结构', link: '/vue3-vant-mobile/directory'},
   { text: '图标', link: '/vue3-vant-mobile/icons' },
   { text: '浏览器适配', link: '/vue3-vant-mobile/browser-adaptation' },
+  { text: '路由', link: '/vue3-vant-mobile/routing'}
 ]
 
 const vue3VarletMobile: DefaultTheme.NavItemWithLink[] = [
