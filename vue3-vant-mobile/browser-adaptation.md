@@ -9,7 +9,7 @@ outline: deep
 
 ## 适配方案 {#rem-or-vw}
 
-目前移动端适配主要有两种方案，包括 `vw` 布局和 `rem` 布局。vw（视口宽度）布局根据视口宽度进行尺寸调整；rem（文档根元素）布局则基于根元素字体大小，保证不同设备上文字和元素的相对比例一致。选择上，我们采用了 vw 方案，首先是因为它得到了众多浏览器的兼容，其次它不用像 rem 一样需要设置根元素的 `font-size`。vw 让我们的代码更纯粹。
+目前移动端适配主要有两种方案，包括 `vw` 布局和 `rem` 布局。vw（视口宽度）布局根据视口宽度进行尺寸调整；rem（文档根元素）布局则基于根元素字体大小，保证不同设备上文字和元素的相对比例一致。选择上，我们采用了 vw 方案，首先是因为它得到了众多浏览器的兼容，其次它不用像 rem 在运行时通过 JavaScript 设置根元素的 `font-size`。vw 让我们的代码更纯粹。
 
 ## Viewport 布局 {#viewport}
 
@@ -59,6 +59,10 @@ postcss: {
   ],
 }
 ```
+
+::: warning
+桌面端访问的特性是通过 CSS 函数 `min()`、`max()`、`calc()` 实现的，请注意业务中有否老旧设备的投放场景，如果有，请关闭 `maxDisplayWidth` 选项。更多的兼容性情况可以查看 [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/min#browser_compatibility) 和 [caniuse.com](https://caniuse.com/css-math-functions)。
+:::
 
 ## 行内样式转换 {#inline-px-to-vw}
 
