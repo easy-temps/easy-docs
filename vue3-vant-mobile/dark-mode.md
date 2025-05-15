@@ -6,9 +6,9 @@ outline: deep
 
 # :last_quarter_moon: 暗黑模式
 
-### 初始化模式 {#initialization-mode}
+## 初始化模式 {#initialization-mode}
 
-根据本地存储的主题设置和系统偏好，自动为页面添加或移除 dark 类，实现暗黑模式的切换。
+根据本地存储的主题设置和系统偏好，自动添加或移除`dark`类，实现暗黑模式的切换。
 
 ```ts
 <script>
@@ -21,9 +21,9 @@ outline: deep
 </script>
 ```
 
-### 切换模式 {#switch-mode}
+## 如何使用？ {#use}
 
-统一管理暗黑模式的状态、切换和用户偏好，方便在 Vue 组件中直接使用。
+`dark.ts`文件统一管理暗黑模式的状态、切换和用户偏好，方便在 Vue 组件中直接使用，无需引入。
 
 ```text
 src/composables/
@@ -38,6 +38,20 @@ export const toggleDark = useToggle(isDark)
 export const preferredDark = usePreferredDark()
 ```
 
+### 获取当前模式
+```ts
+const mode = isDark.value ? 'dark' : 'light'
+```
+
+### 切换模式 {#switch-mode}
+```ts
+toggleDark()
+```
+
+### 获取用户偏好
+```ts
+const userPreferredDark = preferredDark.value ? 'dark' : 'light'
+```
 
 ## 常见问题 {#FAQ}
 
