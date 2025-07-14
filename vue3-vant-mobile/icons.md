@@ -38,7 +38,7 @@ outline: deep
 
 :::
 
-安装完成后，还应该将其引入到 [exclude](https://github.com/easy-temps/vue3-vant-mobile/blob/main/build/vite/optimize.ts) 配置里。
+安装完成后，还应该将其引入到 [exclude](https://github.com/vue-zone/vue3-vant-mobile/blob/main/build/vite/optimize.ts) 配置里。
 
 ::: info
 

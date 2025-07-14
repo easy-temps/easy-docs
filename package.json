@@ -1,5 +1,5 @@
 {
-  "name": "easy.template",
+  "name": "docs",
   "type": "module",
   "packageManager": "pnpm@10.13.0",
   "description": "Out of the box vue3 template",

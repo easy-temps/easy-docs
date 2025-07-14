@@ -153,21 +153,21 @@ const vue3ElementAdminSidebarConfig: DefaultTheme.SidebarItem[] = [
 
 
 export default defineConfig({
-  base: '/easy-docs/',
-  title: 'EasyTemplate',
+  base: '/docs/',
+  title: 'VueZone',
 
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/easy-docs/favicon.svg', type: 'image/svg+xml' }],
-    ['link', { rel: 'alternate icon', href: '/easy-docs/favicon.ico', type: 'image/png', sizes: '16x16' }],
+    ['link', { rel: 'icon', href: '/docs/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'alternate icon', href: '/docs/favicon.ico', type: 'image/png', sizes: '16x16' }],
     ['meta', { name: 'theme-color', content: '#55a578' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh' }],
-    ['meta', { property: 'og:title', content: 'EasyTemplate | Out of the box Vue 3 template' }],
-    ['meta', { property: 'og:site_name', content: 'EasyTemplate' }],
+    ['meta', { property: 'og:title', content: 'VueZone | Out of the box Vue 3 template' }],
+    ['meta', { property: 'og:site_name', content: 'VueZone' }],
     // ['meta', { property: 'og:url', content: '' }],
   ],
 
@@ -179,7 +179,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/easy-temps' },
+      { icon: 'github', link: 'https://github.com/vue-zone' },
       { icon: 'x', link: 'https://twitter.com/charlie9627' }
     ],
 
@@ -199,7 +199,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/easy-temps/easy-docs/edit/main/:path',
+      pattern: 'https://github.com/vue-zone/docs/edit/main/:path',
       text: '在 GitHub 上编辑此页面',
     },
 
@@ -214,7 +214,7 @@ export default defineConfig({
     
     footer: {
       message: '基于 MIT 许可发布',
-      copyright: '版权所有 © 2022-2024 EasyTemplate',
+      copyright: '版权所有 © 2022-2025 VueZone',
     },
   },
 

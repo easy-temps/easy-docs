@@ -1,3 +1,3 @@
-# Easy Docs
+# VueZone
 
-Easy Template 官方文档
+VueZone 官方文档

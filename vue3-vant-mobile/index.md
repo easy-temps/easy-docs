@@ -5,7 +5,7 @@ description: 一个基于 Vue 3 生态系统的移动 web 应用模板，帮助�
 
 # 介绍 {#intro}
 
-[vue3-vant-mobile](https://github.com/easy-temps/vue3-vant-mobile) 是一款开源免费且开箱即用的移动模版，完全采用 `ECMAScript` 模块（`ESM`）规范来编写和组织代码，使用了最新的 `Vue3`、`Vite`、`Vant`、`TypeScript`、`Pinia`、`Unocss` 等主流技术开发。我们还提供了业务当中常用的组件，例如：`Dark Mode`、`i18n`、`Mock`、`ECharts`、`Pinia` 持久化、`KeepAlive` 等示例。总之，开发者借助这个模板，可以继续向上构建自己的业务场景，快速完成开发工作。
+[vue3-vant-mobile](https://github.com/vue-zone/vue3-vant-mobile) 是一款开源免费且开箱即用的移动模版，完全采用 `ECMAScript` 模块（`ESM`）规范来编写和组织代码，使用了最新的 `Vue3`、`Vite`、`Vant`、`TypeScript`、`Pinia`、`Unocss` 等主流技术开发。我们还提供了业务当中常用的组件，例如：`Dark Mode`、`i18n`、`Mock`、`ECharts`、`Pinia` 持久化、`KeepAlive` 等示例。总之，开发者借助这个模板，可以继续向上构建自己的业务场景，快速完成开发工作。
 
 ## 在线预览 {#preview}
 
@@ -45,6 +45,11 @@ description: 一个基于 Vue 3 生态系统的移动 web 应用模板，帮助�
 
 ## 问题反馈 {#feedback}
 
-我们推荐使用 [议题](https://github.com/easy-temps/vue3-vant-mobile/issues) 来反馈问题, 或者您也可以通过微信群联系我们。
+我们推荐使用 [议题](https://github.com/vue-zone/vue3-vant-mobile/issues) 来反馈问题, 或者您也可以通过微信群联系我们。
 
-<img style="width: 50%" src="https://cdn.jsdelivr.net/gh/easy-temps/easy-static/community.png" alt="community" />
+::: info
+群已满，请扫码关注公众号，点击“联系作者”，扫码加作者为好友（备注“mobile”），通过后邀请入群。
+:::
+
+
+<img style="width: 30%" src="https://cdn.jsdelivr.net/gh/vue-zone/static/qrcode.png" alt="qrcode" />

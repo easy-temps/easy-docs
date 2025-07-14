@@ -131,7 +131,7 @@ body, p, li {
 
 恭喜你！已经完成了 Rem 布局的适配，现在请重新检查兼容性问题是否解决。
 
-> 遇到问题[扫码进群](/vue3-vant-mobile/#feedback)或提交[议题](https://github.com/easy-temps/vue3-vant-mobile/issues)寻求帮助。
+> 遇到问题[扫码进群](/vue3-vant-mobile/#feedback)或提交[议题](https://github.com/vue-zone/vue3-vant-mobile/issues)寻求帮助。
 
 ## 原子化 CSS (Atomic CSS) {#atomic-css}
 

@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: EasyTemplate
+title: VueZone
 titleTemplate: Out of the box Vue 3 template
 
 hero:
-  name: EasyTemplate
+  name: VueZone
   text: 开箱即用的 Vue 3 移动、中后台模板
   tagline: 帮助你快速完成业务开发
   actions:
@@ -14,10 +14,10 @@ hero:
       link: /guide/
     - theme: alt
       text: GitHub
-      link: https://github.com/easy-temps
+      link: https://github.com/vue-zone
   image:
     src: /logo.svg
-    alt: EasyTemplate
+    alt: VueZone
 
 
 features:

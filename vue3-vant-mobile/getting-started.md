@@ -9,7 +9,7 @@ outline: deep
 ## 开发环境 {#development}
 
 `vue3-vant-mobile` 使用 [Vite](https://cn.vitejs.dev/) 作为前端构建工具，使用 [pnpm](https://pnpm.io/zh/) 作为包管理器，两者能够显著提升前端开发体验。
-在最新的 `Vite` 版本当中，要求 [Node.js](https://nodejs.org/en) 版本 `18+` 或 `20+`（推荐优先安装长期维护 `LTS` 版）, `pnpm` 版本应不小于 `v9`。
+在最新的 `Vite` 版本当中，要求 [Node.js](https://nodejs.org/en) 版本 `20+`（推荐优先安装长期维护 `LTS` 版）, `pnpm` 版本应不小于 `v9`。
 
 如果您还没有安装 `pnpm`，请执行下面的命令进行安装。
 
@@ -31,14 +31,14 @@ npm config set registry https://registry.npmmirror.com
 
 这种方式是你希望使用 [GitHub](https://github.com/) 作为代码仓库的时候使用。
 
-[使用这个模板在 GitHub 上创建一个仓库](https://github.com/easy-temps/vue3-vant-mobile/generate)
+[使用这个模板在 GitHub 上创建一个仓库](https://github.com/vue-zone/vue3-vant-mobile/generate)
 
 ### 本地克隆 {#local-clone}
 
 如果您喜欢使用更干净的 `git` 历史记录，请执行下面的操作。
 
 ```bash
-npx tiged easy-temps/vue3-vant-mobile my-mobile-app
+npx tiged vue-zone/vue3-vant-mobile my-mobile-app
 cd my-mobile-app
 ```
 
